@@ -404,7 +404,7 @@ class MultiTabAssetPickerBuilder extends DefaultAssetPickerBuilderDelegate {
           disabledColor: theme.dividerColor,
           color: p.isSelectedNotEmpty ? themeColor : theme.dividerColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(3),
+            borderRadius: BorderRadius.circular(30),
           ),
           child: Text(
             p.isSelectedNotEmpty && !isSingleAssetMode
